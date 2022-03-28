@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="height: 150px; background-color: #000"></div>
+    <div style="height: 150px; background-color: red"></div>
+  </body>
+  <script>
+    document.getElementsByTagName("div")[1].onclick = function(e) {
+      console.log("O Evento ocorreu!");
+    };
+  </script>
+</html>
